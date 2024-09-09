@@ -1,0 +1,9 @@
+[package]
+name = "defi_lending"
+version = "1.0.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+
+[addresses]
+deployer_addr = "_"
